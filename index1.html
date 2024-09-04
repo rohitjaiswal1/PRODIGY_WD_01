@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <title>Interactive Navigation Menu</title>
+</head>
+<body>
+
+  <div id="navbar">
+    
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="menu-btn" class="fas fa-bars"> </div>
+
+  <div id="content">
+    <!-- Home Page Content -->
+    <section id="home">
+      <h2 class="heading">Welcome to Our Website</h2>
+      <p class="description">This is the home page content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus natus aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae optio minima facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perspiciatis animi vero nihil!
+      </p>
+    </section>
+
+    <!-- About Page Content -->
+    <section id="about">
+      <h2 class="heading">About Us</h2>
+      <p class="description">We are a passionate team dedicated to providing quality services. Learn more about our mission and values.</p>
+    </section>
+
+    <!-- Services Page Content -->
+    <section class="services" id="services">
+      <h1 class="heading">my <span>services</span></h1>
+
+      <div class="box-container">
+
+          <div class="box">
+              <i class="fas fa-code"></i>
+              <h3>Website Design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas maxime ad.</p>
+
+          </div>
+          <div class="box">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Graphic Design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas maxime ad.</p>
+
+          </div>
+          <div class="box">
+            <i class="fas fa-computer"></i>
+            <h3>SEO</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas maxime ad.</p>
+
+        </div>
+          <div class="box">
+              <i class="fas fa-mobile"></i>
+              <h3>Responsive Design</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas maxime ad.</p>
+
+          </div>
+      </div>
+  </section>
+
+    <!-- Contact Page Content -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
+
+      <form action="">
+          <input type="text" placeholder="Enter your name" class="box">
+          <input type="email" placeholder="Enter your Gmail" class="box">
+          <input type="email" placeholder="Enter your Mobile Number" class="box">
+          <input type="text" placeholder="subject" class="box">
+          <textarea  name=""  class="box" placeholder="Enter your message" id=""  cols="30" rows="10"></textarea>
+          <input type="submit" value="send message" class="btn">
+      </form>
+      
+  </section>
+
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
